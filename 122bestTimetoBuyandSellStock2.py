@@ -5,7 +5,6 @@ On each day, you may decide to buy and/or sell the stock. You can only hold at m
 Find and return the maximum profit you can achieve.
 
 """
-
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         max_profit = 0
