@@ -15,6 +15,7 @@ class Solution:
         list1.next= self.mergeTwoLists(list1.next, list2)
         return list1
 
+
 ## Dummy Node
 class Solution:
     def mergeTwoLists(self, list1, list2):
