@@ -9,5 +9,5 @@ class Solution:
                 start = char_index[char] + 1
             char_index[char] = i
             max_length = max(max_length, i - start + 1)
-
         return max_length
+    
